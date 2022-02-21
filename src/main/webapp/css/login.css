@@ -1,0 +1,62 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=password], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+#showbutt{
+    background-color: #111177;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.container {
+    padding: 16px;
+}
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 25%;
+    border-radius: 50%;
+}
+form fieldset legend{
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+}
+p{
+    width: 100%;
+    text-align: center;
+}
+h1{
+    width: 100%;
+    text-align: center;
+    text-decoration-line: underline ;
+
+}
+a{
+    width: 100%;
+    color: white;
+    text-decoration-line: none;
+}

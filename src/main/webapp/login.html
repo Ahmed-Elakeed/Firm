@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/login.css" type="text/css">
+        <title>Login</title>
+    </head>
+    <body>
+        <h1>Properties Valley</h1>
+        <form action="/Firm_war/Login" method="post">
+            <fieldset>
+                <legend>Employee Login</legend>
+                <div class="imgcontainer">
+                    <img src="photos/avatar.png" alt="Avatar" class="avatar">
+                </div>
+                <div class="container">
+                    <label><b>Email</b></label>
+                    <input type="email" placeholder="Enter Email" name="email" required>
+
+                    <label><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="password" required>
+
+                    <button type="submit">Login</button>
+                    <p>Or</p>
+                    <button onclick="location.href='/Firm_war/ShowData'" type="button" id="showbutt">Show Data</button>
+                </div>
+            </fieldset>
+        </form>
+    </body>
+    </html>
